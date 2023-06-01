@@ -1,0 +1,94 @@
+body {
+  background-color: #222;
+  background-image: url('Q4.jpg');
+  background-size: cover;
+  color: #f3ecec;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 1.5;
+
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+  /* Additional header styles */
+}
+
+main {
+  padding: 20px;
+  /* Additional main styles */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+
+p, ul, li {
+  color: #ffffff;
+}
+
+.course-bubble {
+  background-color: #ee90f1;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  /* Additional course bubble styles */
+}
+
+.course-bubble:hover {
+  background-color: #666;
+  /* Additional hover styles */
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  /* Additional column styles */
+}
+
+.course-list {
+  list-style-type: none;
+  padding: 0;
+  /* Additional course list styles */
+}
+nav {
+  background-color: #000000;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.menu li a:hover {
+  background-color: #990000;
+}
+
+.form-link {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  background-color: #014155;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.contact-link {
+  color: yellow;
+}
