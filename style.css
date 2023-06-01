@@ -2,6 +2,9 @@ body {
   background-color: #222;
   background-image: url('Q4.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   color: #f3ecec;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
@@ -11,12 +14,12 @@ body {
 
 header {
   background-color: #333;
-  padding: 10px;
+  padding: 10px 20px;
   /* Additional header styles */
 }
 
 main {
-  padding: 20px;
+  padding: 10px;
   /* Additional main styles */
 }
 
@@ -64,8 +67,8 @@ nav {
 }
 
 .menu li {
-  display: inline-block;
-  margin-right: 10px;
+  display: block;
+  margin: 10px 0;
 }
 
 .menu li a {
@@ -79,14 +82,14 @@ nav {
 }
 
 .form-link {
-  display: block;
+  display: inline-block;
   font-size: 18px;
   color: #fff;
   background-color: #014155;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 4px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .contact-link {
